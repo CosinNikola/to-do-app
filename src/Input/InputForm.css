@@ -1,0 +1,29 @@
+.input-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto;
+}
+.input-field{
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 50%;
+    border-radius: 12px 0px 0px 12px;
+    border: 0;
+}
+.input-button{
+    border: 0;
+    background:linear-gradient(to bottom, limegreen,green);
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-radius: 0px 12px 12px 0px;
+    padding: 10px;
+    /* margin-top: 1px; */
+}
+.input-button:hover{
+    background:linear-gradient(to bottom, green, limegreen);
+}
